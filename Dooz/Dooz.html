@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Dose</title>
+</head>
+
+<body>
+
+    <div class="bg-container-contact100" style="background-image: url(images/bg-01.jpg);">
+        <h1 id="myh">TIC TAC GAME</h1>
+        <div id="base">
+            <div id="sr">Player Red</div>
+            <div id="sb">Player Blue</div>
+            <table id="tt">
+                <tr>
+                    <td id="t1" onclick="Box1()"></td>
+                    <td id="t2" onclick="Box2()"></td>
+                    <td id="t3" onclick="Box3()"></td>
+                </tr>
+                <tr>
+                    <td id="t4" onclick="Box4()"></td>
+                    <td id="t5" onclick="Box5()"></td>
+                    <td id="t6" onclick="Box6()"></td>
+                </tr>
+                <tr>
+                    <td id="t7" onclick="Box7()"></td>
+                    <td id="t8" onclick="Box8()"></td>
+                    <td id="t9" onclick="Box9()"></td>
+                </tr>
+            </table>
+
+           
+            <input type="button" id="but" onclick="Reset()" value="RESET">
+            <button  id="but" onclick="Reset()">RESET</button>
+            <input type="button" id="buc" onclick="Change()" value="change shapes">
+            <button id="buc" onclick="Change()">RESET</button>
+
+</body>
+<script src="script.js"></script>
+
+</html>
